@@ -1,4 +1,4 @@
-let time = 1* 60;
+let time = 30* 60;
 let timer = null;
 
 const display = document.getElementById("time");
