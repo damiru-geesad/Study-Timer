@@ -33,9 +33,9 @@ p{
     margin-bottom: 35px;
 }
 .timer h2{
-    font-size: 75px;
-    color: #a895ff;
-    margin-bottom: 35px;
+    font-size: 100px;
+    color: #ffffff;
+    margin-bottom: 50px;
 }
 .buttons button{
     padding: 12px 20px;
@@ -56,4 +56,50 @@ p{
 #reset{
     background: #c6061c;
     color: white;
+}
+
+.custom-time{
+    margin-bottom:30px;
+}
+.custom-time h3{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.time-inputs{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+.time-inputs div{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.time-inputs label{
+    font-size: 13px;
+    color: #aab5ce;
+}
+
+.time-inputs input{
+    width: 85px;
+    padding: 12px 5px;
+    border-radius: 8px;
+    border: 1px solid #8d7bff;
+    background: #10172a;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+#setTime{
+    padding: 11px 25px;
+    background: #8d7bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#setTime:hover{
+    background: #7562ed;
 }

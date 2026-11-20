@@ -11,6 +11,27 @@
         <h1>Study Timer</h1>
         <p>Stay Focused. Keep Learning.</p>
 
+        <div class="custom-time">
+            <h3>Set Your Study Time</h3>
+
+            <div class="time-inputs">
+
+                <div>
+                    <label>Hours</label>
+                    <input type="number" id="hours" min="0" max="99" value="0">
+                </div>
+                <div>
+                    <label>Minutes</label>
+                    <input type="number" id="minutesInput" min="0" max="59" value="25">
+                </div>
+                <div>
+                    <label>Seconds</label>
+                    <input type="number"id="secondsInput" min="0" max="59" value="0">
+                </div>
+            </div>
+            <button id="setTime">Set Time</button>
+        </div>
+
         <div class="timer">
             <h2 id="time">25:00</h2>
         </div>
